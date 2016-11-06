@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- App Colors -->
+    <color name="color_green_sea">#16a085</color>
+    <color name="color_grey_clouds">#ecf0f1</color>
+    <color name="color_green_torquise">#1abc9c</color>
+    <color name="color_green_seadark">#15967c</color>
+
 </resources>

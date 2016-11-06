@@ -1,10 +1,12 @@
-package io.sensesation.sensation;
+package io.sensesation.sensation.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import io.sensesation.sensation.R;
 
 public class Splash_Screen extends AppCompatActivity {
 

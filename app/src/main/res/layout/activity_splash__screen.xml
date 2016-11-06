@@ -8,19 +8,61 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="io.sensesation.sensation.Splash_Screen">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    android:background="@color/color_green_sea"
+    tools:context="io.sensesation.sensation.activities.Splash_Screen">
 
     <Button
         android:id="@+id/bEnter"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:text="Enter"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentBottom="true"/>
 
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/app_logo2"/>
+
+    <ui.CustomTextview
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/color_grey_clouds"
+        android:textSize="15pt"
+        android:textStyle="bold"
+        android:text="SENSation"/>
+
+    <EditText
+        android:id="@+id/etLogin"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/etLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"/>
 
 </RelativeLayout>
